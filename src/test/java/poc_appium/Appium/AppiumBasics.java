@@ -17,7 +17,7 @@ public class AppiumBasics {
 	@Test
 	public void AppiumTest() {
 		AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS( new File("C://Users//salome.aristizabalg//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
-				.withIPAddress("http://127.0.0.1").usingPort(4723).build();
+				.withIPAddress("127.0.0.1").usingPort(4723).build();
 		service.start();
 		
 		UiAutomator2Options options = new UiAutomator2Options();
