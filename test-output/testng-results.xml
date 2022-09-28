@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T14:53:03 COT" name="Default suite" finished-at="2022-09-28T14:53:19 COT" duration-ms="16222">
+  <suite started-at="2022-09-28T15:23:33 COT" name="Default suite" finished-at="2022-09-28T15:23:49 COT" duration-ms="16031">
     <groups>
     </groups>
-    <test started-at="2022-09-28T14:53:03 COT" name="Default test" finished-at="2022-09-28T14:53:19 COT" duration-ms="16222">
+    <test started-at="2022-09-28T15:23:33 COT" name="Default test" finished-at="2022-09-28T15:23:49 COT" duration-ms="16031">
       <class name="poc_appium.Appium.LongPress">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.LongPress@564fabc8]" started-at="2022-09-28T14:53:03 COT" name="ConfigureAppium" finished-at="2022-09-28T14:53:14 COT" duration-ms="10580" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.LongPress@74fe5c40]" started-at="2022-09-28T15:23:33 COT" name="ConfigureAppium" finished-at="2022-09-28T15:23:43 COT" duration-ms="10233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:poc_appium.Appium.LongPress@564fabc8]" started-at="2022-09-28T14:53:14 COT" name="LongPressGesture" finished-at="2022-09-28T14:53:19 COT" duration-ms="5341" status="PASS">
+        <test-method signature="LongPressGesture()[pri:0, instance:poc_appium.Appium.LongPress@74fe5c40]" started-at="2022-09-28T15:23:43 COT" name="LongPressGesture" finished-at="2022-09-28T15:23:48 COT" duration-ms="5450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.LongPress@564fabc8]" started-at="2022-09-28T14:53:19 COT" name="tearDown" finished-at="2022-09-28T14:53:19 COT" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.LongPress@74fe5c40]" started-at="2022-09-28T15:23:48 COT" name="tearDown" finished-at="2022-09-28T15:23:49 COT" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
