@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T09:49:51 COT" name="Default suite" finished-at="2022-09-29T09:50:10 COT" duration-ms="18745">
+  <suite started-at="2022-09-29T09:55:58 COT" name="Default suite" finished-at="2022-09-29T09:56:16 COT" duration-ms="17756">
     <groups>
     </groups>
-    <test started-at="2022-09-29T09:49:51 COT" name="Default test" finished-at="2022-09-29T09:50:10 COT" duration-ms="18745">
+    <test started-at="2022-09-29T09:55:58 COT" name="Default test" finished-at="2022-09-29T09:56:16 COT" duration-ms="17756">
       <class name="poc_appium.Appium.MiscellaneousActions">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:49:51 COT" name="ConfigureAppium" finished-at="2022-09-29T09:50:01 COT" duration-ms="10251" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:55:58 COT" name="ConfigureAppium" finished-at="2022-09-29T09:56:09 COT" duration-ms="10661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="SettingWifiName()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:50:01 COT" name="SettingWifiName" finished-at="2022-09-29T09:50:09 COT" duration-ms="8061" status="PASS">
+        <test-method signature="SettingWifiName()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:56:09 COT" name="SettingWifiName" finished-at="2022-09-29T09:56:16 COT" duration-ms="6791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingWifiName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:50:09 COT" name="tearDown" finished-at="2022-09-29T09:50:10 COT" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:56:16 COT" name="tearDown" finished-at="2022-09-29T09:56:16 COT" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -5,6 +5,7 @@ import org.openqa.selenium.DeviceRotation;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import junit.framework.Assert;
@@ -16,8 +17,10 @@ public class MiscellaneousActions extends BaseTest {
 	public void SettingWifiName() {
 		//Locators appium supports
 		//Xpath, id, accessibilityId, classname, androidUIAutomator
-		driver.findElement(AppiumBy.accessibilityId("Preference")).click();
-		driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();
+		Activity activity = new Activity("io.appium.android.apis", "io.appium.android.apis.preference.PreferenceDependencies");
+		driver.startActivity(activity);
+		//driver.findElement(AppiumBy.accessibilityId("Preference")).click();
+		//driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();
 		driver.findElement(By.id("android:id/checkbox")).click();
 		
 		DeviceRotation landScape = new DeviceRotation(0,0,90);
