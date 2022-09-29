@@ -31,7 +31,8 @@ public class BaseTest {
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("AppiumTesting");
-		options.setApp("C://Users//salome.aristizabalg//eclipse-workspace//Appium//src//test//java//resources//ApiDemos-debug.apk");
+		//options.setApp("C://Users//salome.aristizabalg//eclipse-workspace//Appium//src//test//java//resources//ApiDemos-debug.apk");
+		options.setApp("C://Users//salome.aristizabalg//eclipse-workspace//Appium//src//test//java//resources//General-Store.apk");
 		
 		
 		try {
