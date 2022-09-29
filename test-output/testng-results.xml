@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T08:39:07 COT" name="Default suite" finished-at="2022-09-29T08:39:22 COT" duration-ms="15129">
+  <suite started-at="2022-09-29T09:55:58 COT" name="Default suite" finished-at="2022-09-29T09:56:16 COT" duration-ms="17756">
     <groups>
     </groups>
-    <test started-at="2022-09-29T08:39:07 COT" name="Default test" finished-at="2022-09-29T08:39:22 COT" duration-ms="15129">
-      <class name="poc_appium.Appium.SwipeDemo">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.SwipeDemo@10e31a9a]" started-at="2022-09-29T08:39:07 COT" name="ConfigureAppium" finished-at="2022-09-29T08:39:17 COT" duration-ms="10467" status="PASS">
+    <test started-at="2022-09-29T09:55:58 COT" name="Default test" finished-at="2022-09-29T09:56:16 COT" duration-ms="17756">
+      <class name="poc_appium.Appium.MiscellaneousActions">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:55:58 COT" name="ConfigureAppium" finished-at="2022-09-29T09:56:09 COT" duration-ms="10661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="ScrollDemoTest()[pri:0, instance:poc_appium.Appium.SwipeDemo@10e31a9a]" started-at="2022-09-29T08:39:17 COT" name="ScrollDemoTest" finished-at="2022-09-29T08:39:22 COT" duration-ms="4355" status="FAIL">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[fals]e> but was:<[tru]e>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<[fals]e> but was:<[tru]e>
-at junit.framework.Assert.assertEquals(Assert.java:100)
-at junit.framework.Assert.assertEquals(Assert.java:107)
-at poc_appium.Appium.SwipeDemo.ScrollDemoTest(SwipeDemo.java:26)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+        <test-method signature="SettingWifiName()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:56:09 COT" name="SettingWifiName" finished-at="2022-09-29T09:56:16 COT" duration-ms="6791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.SwipeDemo@10e31a9a]" started-at="2022-09-29T08:39:22 COT" name="tearDown" finished-at="2022-09-29T08:39:22 COT" duration-ms="282" status="PASS">
+        </test-method> <!-- SettingWifiName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:poc_appium.Appium.MiscellaneousActions@10e31a9a]" started-at="2022-09-29T09:56:16 COT" name="tearDown" finished-at="2022-09-29T09:56:16 COT" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- poc_appium.Appium.SwipeDemo -->
+      </class> <!-- poc_appium.Appium.MiscellaneousActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
